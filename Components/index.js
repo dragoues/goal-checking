@@ -21,26 +21,9 @@ const todos = [
     },
 ];
 
-const newArrayJustText = todos.map((i) => item.text);
-console.log(map); 
-
-const newArrayJustText = todos.map((i) => item.text);
-console.log(map);
-let htmlList = todos.map((item) => Todo(item.text, item.id));
-document.querySelector(".list").innerHTML = htmlList;
-
-const array_1 = [1, 2, 3, 4, 5, 6];
-let array_2 = array_1;
-array_2.push(7);
-console.log(array_1);
-console.log(array_2);
-
-
 const array_1 = [1, 2, 3, 4, 5, 6]
 const array_2 = [....array_1, 7]
 
-
-window.addEventListener("DOMContentLoaded", render(todos));
 
 function render(todos) {
     const tds = [...todos];
